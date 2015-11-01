@@ -1,0 +1,14 @@
+---
+---
+<ul class="list-group">
+  {% for repo in site.github.public_repositories %}
+    <li class="list-group-item"><a href="{{ repo.html_url }}">{{ repo.name }}</a></li>
+    {% assign last_repo = repo %}
+  {% endfor %}
+</ul>
+
+<ul class="list-group">
+  {% for prop in repo %}
+    <li class="list-group-item">{{ prop }}</li>
+  {% endfor %}
+</ul>
