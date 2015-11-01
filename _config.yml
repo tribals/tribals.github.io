@@ -12,6 +12,7 @@ url: site.github.url
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
 
 timezone: Europe/Moscow
 
