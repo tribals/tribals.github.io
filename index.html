@@ -1,5 +1,5 @@
 ---
 ---
-{% highlight yaml linenos %}
-  {{ site.github.to_json }}
+{% highlight json linenos %}
+  {{ site.github | jsonify }}
 {% endhighlight %}
